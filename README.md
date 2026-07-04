@@ -16,7 +16,7 @@ This repository represents the first step in human history toward building a ful
 ## Model & Dataset Access
 
 The completed fine-tuned LLaMA-3 adapter model and the curated Tausug dictionary dataset are publicly hosted and available for download on Hugging Face:
-*   **Model:** [honeybadgzer/BISARA-Tausug-AI]([https://huggingface.co/honeybadgzer/BISARA-Tausug-AI](https://huggingface.co/honeybadgzer/BISARA-Tausug-v1.0-Beta-GGUF))
+*   **Model:** [honeybadgzer/BISARA-Tausug-AI](https://huggingface.co/honeybadgzer/BISARA-Tausug-v1.0-Beta-GGUF)
 *   **Dataset:** [honeybadgzer/tausug-dictionary](https://huggingface.co/datasets/honeybadgzer/tausug-dictionary)
 
 ---
