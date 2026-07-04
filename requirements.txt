@@ -1,0 +1,15 @@
+# Foundation dependencies - Lightweight
+# We will add to this as we build out specific phases
+
+# Data processing
+pandas
+pyarrow
+datasets  # Hugging Face datasets library
+
+# API / Core (already planned for future, but good for basic structs)
+fastapi
+uvicorn
+pydantic
+
+# Note: PyTorch, Transformers, PEFT, and bitsandbytes (for QLoRA) 
+# will be installed in the training phase as they are heavy.
