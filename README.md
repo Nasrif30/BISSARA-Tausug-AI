@@ -115,7 +115,7 @@ GitHub
 https://github.com/Nasrif30
 
 Hugging Face  
-https://huggingface.co/honeybadgzer
+https://huggingface.co/alnasrifhaliddin
 
 Cybersecurity Portfolio  
 https://nasrif30.github.io/THE-PWNED-ARCHIVE/#archive
