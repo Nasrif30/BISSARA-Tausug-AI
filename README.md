@@ -20,17 +20,6 @@ BISSARA AI is presented as **the first open-source Tausug language AI model**, c
 
 ---
 
-## BISSARA AI Phase 2 Version 1
-
-The next generation of BISSARA AI introduces a significantly improved architecture focused on scalability, local-first deployment, higher-quality language understanding, and future multilingual expansion.
-
-### Architecture Diagram
-
-<img width="8192" height="7783" alt="final tausug phase 2 final" src="https://github.com/user-attachments/assets/569c5ddf-6193-4b10-8780-fb40ecde944a" />
-
-
-
----
 
 ## Model & Dataset Access
 
