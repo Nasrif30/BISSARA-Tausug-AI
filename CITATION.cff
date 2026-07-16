@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use BISSARA AI in research, publications, or derivative projects, please cite this repository."
+
+title: "BISSARA AI"
+
+type: software
+
+authors:
+  - family-names: "Haliddin"
+    given-names: "Alnasrif"
+
+abstract: >
+  BISSARA AI is an open-source project focused on preserving and
+  advancing the Tausug language through artificial intelligence,
+  datasets, and large language models.
+
+keywords:
+  - Tausug
+  - AI
+  - Artificial Intelligence
+  - LLM
+  - NLP
+  - Philippines
+  - Open Source
+  - Language Preservation
+
+license: Apache-2.0
+
+version: "1.0"
+
+date-released: "2026-07-17"
+
+repository-code: "https://github.com/Nasrif30/BISSARA-AI"
+
+url: "https://github.com/Nasrif30/BISSARA-AI"
+
+repository-artifact BETA: "https://huggingface.co/alnasrifhaliddin/BISSARA-Tausug-v1.0-Beta-GGUF"
+repository-artifact phase 2 version 1: "https://huggingface.co/alnasrifhaliddin/BISSARA-v1.0-GGUF"
