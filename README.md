@@ -80,6 +80,9 @@ BISSARA AI is released under the **Apache License 2.0**.
 - **README_Phase2_v1.md** – Complete documentation for BISSARA AI Phase 2 Version 1  
   https://github.com/Nasrif30/BISSARA-Tausug-AI/blob/main/README_Phase2_v1.md
 
+  - **NOTICE** – Copyright and attribution notice  
+  https://github.com/Nasrif30/BISSARA-Tausug-AI/blob/main/NOTICE
+
 See the **LICENSE** file for the complete license terms.
 
 
