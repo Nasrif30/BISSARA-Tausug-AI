@@ -2,48 +2,93 @@
 
 ![BISSARA AI Banner](https://img.shields.io/badge/Language-Tausug-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-In%20Development-success?style=for-the-badge) ![Creator](https://img.shields.io/badge/Creator-Alnasrif%20Jal--usman%20Haliddin-orange?style=for-the-badge)
 
-## The Story Behind BISARA
-For weeks, this project was built on 4 hours of sleep a night. While massive tech companies spent billions of dollars training AI models on English, Mandarin, and Spanish, the Tausug language was completely left behind. 
+## The Story Behind BISSARA AI
 
-I refused to let my native tongue be excluded from the AI revolution. 
+For weeks, this project was built on just four hours of sleep each night. While major technology companies invested billions into AI for widely spoken languages such as English, Mandarin, and Spanish, the Tausug language remained largely absent from modern language models.
 
-**BISSARA AI** was born out of a relentless dedication to digitize, preserve, and modernize the Tausug language. As a native Tausug speaker and an enthusiast who loves testing and tinkering, I spent countless sleepless nights engineering local data pipelines, gathering over 28,000 Tausug words and phrases from scattered internet archives, and meticulously leveraging my native fluency to manually validate and correct the dataset. 
+I refused to let my native language be left behind.
 
-This repository represents the first step in human history toward building a fully capable, open-source Large Language Model (LLM) specifically trained to understand, speak, and translate Tausug.
+**BISSARA AI** was created to help preserve, digitize, and modernize the Tausug language through open-source artificial intelligence. As a native Tausug speaker, I spent countless hours collecting, validating, correcting, and organizing linguistic data from dictionaries, educational resources, and publicly available references while manually reviewing every entry using my own fluency.
+
+This repository represents an important milestone toward building a fully capable open-source Large Language Model (LLM) designed to understand, generate, and translate the Tausug language.
+
+---
+
+# History
+
+BISSARA AI is presented as **the first open-source Tausug language AI model**, created and architected by **Alnasrif Jal-usman Haliddin**, with the goal of making Tausug language technology freely accessible for researchers, developers, students, and the Tausug community.
+
+---
+
+## BISSARA AI Phase 2 Version 1
+
+The next generation of BISSARA AI introduces a significantly improved architecture focused on scalability, local-first deployment, higher-quality language understanding, and future multilingual expansion.
+
+### Architecture Diagram
+
+> *(The complete Phase 2 Version 1 architecture diagram is provided separately.)*
+
+### Documentation
+
+> *(The complete Phase 2 Version 1 documentation and repository link are provided separately.)*
 
 ---
 
 ## Model & Dataset Access
 
-The completed fine-tuned LLaMA-3 adapter model and the curated Tausug dictionary dataset are publicly hosted and available for download on Hugging Face:
-*   **Model:** [honeybadgzer/BISARA-Tausug-AI](https://huggingface.co/honeybadgzer/BISSARA-Tausug-v1.0-Beta-GGUF)
-*   **Dataset:** [honeybadgzer/tausug-dictionary](https://huggingface.co/datasets/honeybadgzer/tausug-dictionary)
+The completed fine-tuned LLaMA-3 adapter model and the curated Tausug dataset are publicly available on Hugging Face.
+
+**Model**
+- https://huggingface.co/honeybadgzer/BISSARA-Tausug-v1.0-Beta-GGUF
+
+**Dataset**
+- https://huggingface.co/datasets/honeybadgzer/tausug-dictionary
 
 ---
 
 ## System Architecture & Data Pipeline
 
-To ensure this project remains accessible to students and researchers with limited hardware, the entire data-generation pipeline runs locally using quantized models (Phi-3 / LLaMA 3) via Ollama, requiring zero API costs.
+To ensure accessibility for students and researchers with limited hardware, the entire data-generation pipeline runs locally using quantized models through Ollama, requiring no paid API services.
 
 <img width="2845" height="6772" alt="Data Pipeline Diagram-2026-07-04-211613" src="https://github.com/user-attachments/assets/17ff6610-5f4f-4ca6-bcb2-33dcd8590f11" />
 
+---
 
 ## QLoRA Training Pipeline
 
-The dataset compiled in this repository is structured in JSONL (ChatML format) to allow for Parameter-Efficient Fine-Tuning (QLoRA) on consumer-grade hardware or free cloud GPUs (like Google Colab).
+The dataset is formatted in ChatML (JSONL) for efficient parameter-efficient fine-tuning (QLoRA), allowing training on consumer hardware and free cloud GPU platforms.
 
 <img width="8192" height="794" alt="Deep Learning_Training Diagram-2026-07-04-211707" src="https://github.com/user-attachments/assets/4d706115-577b-43b8-843d-f7fc49ae98d6" />
 
+---
 
 ## Repository Structure
-*   `datasets/raw/` - Raw manually compiled dictionaries and CSV data.
-*   `datasets/processed/` - The final `JSONL` ChatML formatted dataset for Hugging Face.
-*   `scripts/` - Automated Python pipelines for data cleaning and local Ollama API communication.
-*   `training/` - *(In Development)* QLoRA Hugging Face `SFTTrainer` notebooks.
+
+- `datasets/raw/` — Raw dictionaries and collected linguistic resources.
+- `datasets/processed/` — Final ChatML (JSONL) datasets.
+- `scripts/` — Data-cleaning and Ollama automation pipelines.
+- `training/` — QLoRA training notebooks and experiments.
+
+---
 
 ## Open Source & Community
-This project is open-source because language belongs to the people. By releasing this dataset and architecture, I hope to inspire other developers in the Philippines and around the world to build tools that preserve our cultural heritage.
 
-**Created and Architected by:** Alnasrif Jal-usman Haliddin  
-**My Cybersecurity & CTF Writeups:** [THE PWNED ARCHIVE](https://nasrif30.github.io/THE-PWNED-ARCHIVE/#archive)  
-*For the Tausug People, For the Future.*
+BISSARA AI is open source because language belongs to its people.
+
+The project aims to encourage students, researchers, educators, and developers to build technologies that help preserve and advance the Tausug language for future generations.
+
+---
+
+## Creator
+
+**Created & Architected by**
+
+**Alnasrif Jal-usman Haliddin**
+
+Cybersecurity Portfolio
+
+https://nasrif30.github.io/THE-PWNED-ARCHIVE/#archive
+
+---
+
+*"For the Tausug People. For the Future."*
